@@ -292,14 +292,14 @@ let tek = `    ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫ 
     ◉  𝙊𝙨 𝙋𝙡𝙖𝙩𝙛𝙧𝙤𝙢 : *${os.platform()}*`
 const listMessage = {
   text: tek,
-  footer: '© PutraModz | ALL RESERVED',
+  footer: '© Xien Dae Mon | https://discord.gg/fCHeVWVY',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,
   sections
 }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: false }})
     }
     
  let mode = global.opts['self'] ? 'Private' : 'Publik'
@@ -526,19 +526,19 @@ let buttonMessage = {
 	'buttons': [{
 		'buttonId': '.report',
 		'buttonText': {
-			'displayText': '🍭CUSTOMER SERVICE'
+			'displayText': 'CUSTOMER SERVICE'
 		},
 		'type': 1
 	}, {
 		'buttonId': '.testspeed',
 		'buttonText': {
-			'displayText': '🥞SPEED NET'
+			'displayText': 'SPEED NET'
 		},
 		'type': 1
 	}, {
-		'buttonId': '.sc',
+		'buttonId': '.dc',
 		'buttonText': {
-			'displayText': '📑SCRIPT BOT'
+			'displayText': 'discord'
 		},
 		'type': 1
 	}],
@@ -572,7 +572,7 @@ function _0x1766() {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https:/wa.me/6283863727728'
+                        url: 'https:/wa.me/6281269734000'
                     }
                 },
                 {
